@@ -1,0 +1,38 @@
+{
+  "name": "dsh-github-push",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Adds a github_push tool to DSH: stage, commit and push a workspace directory to GitHub with the git binary and credentials already on this machine.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "git",
+    "github"
+  ],
+  "license": "MIT",
+  "author": "xzc0017",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzc0017/dsh-github-push.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/git.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

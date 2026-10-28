@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub Push",
+    "description": "Adds a github_push tool: stage, commit and push a workspace directory to GitHub with the git binary and credentials already on this machine."
+  }
+}

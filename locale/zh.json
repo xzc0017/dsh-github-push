@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub 推送",
+    "description": "加一个 github_push 工具：把工作区目录暂存、提交并推送到 GitHub，直接复用本机已有的 git 和凭据。"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GitHub push">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#24292f"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="22" r="6"/>
+    <circle cx="32" cy="42" r="6"/>
+    <path d="M32 28v8"/>
+    <path d="M38 22h6a4 4 0 0 1 4 4v10"/>
+    <path d="m44 33 4 4 4-4"/>
+  </g>
+</svg>

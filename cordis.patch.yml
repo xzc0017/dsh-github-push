@@ -1,0 +1,4 @@
+# Inserts one Host row: the plugin that registers the `github_push` tool.
+- insert:
+    - id: github-push
+      name: dsh-github-push
